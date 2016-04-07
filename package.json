@@ -1,0 +1,30 @@
+{
+  "name": "api-ai-slack",
+  "version": "1.0.0",
+  "description": "API.AI Slack Bot",
+  "main": "src/index.js",
+  "repository": {
+    "url": "https://github.com/xVir/api-ai-slack"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Danil Skachkov <danil.skachkov@speaktoit.com> (https://api.ai)",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "apiai": "^1.0.8",
+    "assert": "^1.3.0",
+    "body-parser": "^1.14.2",
+    "botkit": "0.0.12",
+    "console-stamp": "^0.2.0",
+    "cors": "^2.7.1",
+    "express": "4.13.3",
+    "express-redirect": "^1.2.2",
+    "html-entities": "^1.2.0",
+    "minimist": "^1.2.0",
+    "mongodb": "^2.1.4",
+    "node-uuid": "^1.4.7",
+    "q": "^1.4.1"
+  }
+}
